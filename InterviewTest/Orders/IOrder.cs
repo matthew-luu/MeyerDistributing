@@ -9,6 +9,7 @@ namespace InterviewTest.Orders
         ICustomer Customer { get; }
         string OrderNumber { get; }
         DateTime OrderDate { get; }
+        //Requirement 2
         List<OrderedProduct> Products { get; }
 
         void AddProduct(Products.IProduct product);
